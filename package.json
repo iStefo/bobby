@@ -1,21 +1,25 @@
 {
   "author": "Stefan Fochler",
-  "name": "build.js",
+  "name": "bobby",
   "description": "Build your JavaScript projects",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/istefo/bobby"
   },
-  "main": "bin/build.js",
+  "preferGlobal": true,
+  "bugs": {
+    "url": "http://github.com/istefo/bobby/issues"
+  },
+  "main": "bin/bobby.js",
   "bin": {
-    "build.js": "./bin/build.js"
+    "bobby": "./bin/bobby.js"
   },
   "engines": {
     "node": "~0.6.11"
   },
   "dependencies": {
     "optimist": "~0.3.4",
-    "moment": "~1.6.2",
     "winston": "~0.6.1",
     "uglify-js": "~1.3.1"
   },

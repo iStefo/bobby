@@ -1,14 +1,14 @@
-# build.js
+# bobby (the little builder)
 Build your JavaScript projects the way you allways wanted!
 
-*build.js* is a JavaScript **preprocessor** introducing `@require('file.js')` calls to easily give your projects a clean structure.
+*bobby* is a **JavaScript preprocessor** introducing `@require('file.js')` calls to easily give your projects a clean structure.
 
 It recoursively parses your files starting at `file1 [file2...]` and include dependencies at the right place, but only once for the whole project. Simply put `@require('path/lib.js')` (CSS style @import will also work) where you want the file to be. Can't be easier.
 
 ## Usage
-Here's the helpscreen of build.js: 
+Here's the helpscreen of *bobby*: 
 
-	Usage: build.js [-cvs] [-b path] [-o out] file1 [file2...]
+	Usage: bobby [-cvs] [-b path] [-o out] file1 [file2...]
 
 	Options:
 	  -c, --compress  Compress output with UglifyJS                  [boolean]
@@ -19,7 +19,7 @@ Here's the helpscreen of build.js:
 
 The easiest way to combine all the files of your projects in the right order works like this:
 
-`build.js main.js > result.js`
+`bobby main.js > result.js`
 
 ## Options, explained
 ### -c, --compress
@@ -35,7 +35,7 @@ Specify a directory realtive to current that will be used as base for your *requ
 Be more (really) verbose about requiring files
 
 ### -s, --strict
-When build.js can't find a specified file, it still will continue (if possible). With this option, execution will be aborted when a file can't be read.
+When *bobby* can't find a specified file, it still will continue (if possible). With this option, execution will be aborted when a file can't be read.
 
 ## Acknowledgements 
 ### Libraries
