@@ -36,3 +36,14 @@ Be more (really) verbose about requiring files
 
 ### -s, --strict
 When build.js can't find a specified file, it still will continue (if possible). With this option, execution will be aborted when a file can't be read.
+
+## Acknowledgements 
+### Libraries
+#### optimist
+for (comandline option parsing)[https://github.com/substack/node-optimist]
+
+#### winston
+a library for (asynchronous logging to different transports)[https://github.com/flatiron/winston]
+
+#### UglifyJS
+for (fast and efficient minifycation)[https://github.com/mishoo/UglifyJS]
