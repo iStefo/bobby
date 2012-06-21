@@ -40,10 +40,10 @@ When build.js can't find a specified file, it still will continue (if possible).
 ## Acknowledgements 
 ### Libraries
 #### optimist
-for (comandline option parsing)[https://github.com/substack/node-optimist]
+for [comandline option parsing](https://github.com/substack/node-optimist)
 
 #### winston
-a library for (asynchronous logging to different transports)[https://github.com/flatiron/winston]
+a library for [asynchronous logging to different transports](https://github.com/flatiron/winston)
 
 #### UglifyJS
-for (fast and efficient minifycation)[https://github.com/mishoo/UglifyJS]
+for [fast and efficient minifycation](https://github.com/mishoo/UglifyJS)
