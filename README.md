@@ -1,7 +1,7 @@
 # build.js
 Build your JavaScript projects the way you allways wanted!
 
-*build.js* is a JavaScript proprocessor introducing `@require('file.js')` calls to easily give your projects a clean structure.
+*build.js* is a JavaScript **preprocessor** introducing `@require('file.js')` calls to easily give your projects a clean structure.
 
 It recoursively parses your files starting at `file1 [file2...]` and include dependencies at the right place, but only once for the whole project. Simply put `@require('path/lib.js')` (CSS style @import will also work) where you want the file to be. Can't be easier.
 
