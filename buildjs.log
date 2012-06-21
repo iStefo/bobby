@@ -1,0 +1,27 @@
+2012-06-19T21:19:57.917Z - info: Start reading files with base directory '/Users/istefo/Documents/nodes/build.js/test'
+2012-06-19T21:19:57.918Z - step: Read file 'main.js' and marked as loaded
+2012-06-19T21:19:57.918Z - step: Found reference to file 'libs/jquery.js' in main.js:1
+2012-06-19T21:19:57.918Z - step: Read file 'libs/jquery.js' and marked as loaded
+2012-06-19T21:19:57.918Z - step: Found reference to file 'libs/ember.js' in main.js:2
+2012-06-19T21:19:57.919Z - step: Read file 'libs/ember.js' and marked as loaded
+2012-06-19T21:19:57.919Z - step: Found reference to file 'libs/jquery.js' in libs/ember.js:1
+2012-06-19T21:19:57.919Z - step: Requested file 'libs/jquery.js', but allready loaded
+2012-06-19T21:20:16.569Z - info: Start reading files with base directory '/Users/istefo/Documents/nodes/build.js/test'
+2012-06-19T21:20:16.570Z - step: Read file 'main.js' and marked as loaded
+2012-06-19T21:20:16.570Z - step: Found reference to file 'libs/jquery.js' in main.js:1
+2012-06-19T21:20:16.570Z - step: Read file 'libs/jquery.js' and marked as loaded
+2012-06-19T21:20:16.571Z - step: Found reference to file 'libs/ember.js' in main.js:2
+2012-06-19T21:20:16.571Z - step: Read file 'libs/ember.js' and marked as loaded
+2012-06-19T21:20:16.571Z - step: Found reference to file 'libs/jquery.js' in libs/ember.js:1
+2012-06-19T21:20:16.571Z - step: Requested file 'libs/jquery.js', but allready loaded
+2012-06-21T20:49:35.883Z - info: Start reading files with base directory '/Users/istefo/Documents/nodes/build.js/test'
+2012-06-21T20:49:35.884Z - warn: Unable to read file 'libs/jquery.foo'
+2012-06-21T20:49:35.887Z - info: Compressed result with UglifyJS (173b -> 28b, 16.18%)
+2012-06-21T20:49:41.847Z - info: Start reading files with base directory '/Users/istefo/Documents/nodes/build.js/test'
+2012-06-21T20:49:41.849Z - warn: Unable to read file 'libs/jquery.foo'
+2012-06-21T20:49:45.584Z - info: Start reading files with base directory '/Users/istefo/Documents/nodes/build.js/test'
+2012-06-21T20:49:45.586Z - warn: Unable to read file 'libs/jquery.foo'
+2012-06-21T20:49:45.588Z - info: Compressed result with UglifyJS (173b -> 28b, 16.18%)
+2012-06-21T20:56:04.272Z - info: Start reading files with base directory '/Users/istefo/Documents/nodes/build.js/test'
+2012-06-21T20:56:04.274Z - warn: Unable to read file 'libs/jquery.foo'
+2012-06-21T20:56:04.276Z - info: Compressed result with UglifyJS (173b -> 28b, 16.18%)

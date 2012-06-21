@@ -1,0 +1,1 @@
+$={},Ember={},Ember.jQuery=$
