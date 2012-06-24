@@ -26,7 +26,7 @@ The easiest way to combine all the files of your projects in the right order wor
 
 Alternatively, check out this repository and install via `npm install -g .`.
 
-*bobby* becomes really powerfull when combined with tools like [LiveReload](http://livereload.com) or any other filesystem watcher. This way, *bobby* can build your project on the fly before you had even switched to your comandline (if you hadn't used vim, but of course you do...)
+*bobby* becomes really powerfull when combined with tools like [LiveReload](http://livereload.com) or any other filesystem watcher. This way, *bobby* can build your project on the fly before you had even switched to your comandline (if you hadn't used vim all along, but of course you did...)
 
 ## Options, explained
 ### -c, --compress
@@ -47,7 +47,7 @@ When *bobby* can't find a specified file, it still will continue (if possible). 
 ## Acknowledgements 
 ### Sponsor
 #### Boinx Software
-where I'm proud to work at with all the amazing people. They make [cool software for OS X and iOS](http://boinx.com) and payed me for the hours I worked at *Bobby*.
+where I'm proud to work at with all the amazing people. They make [cool software for OS X and iOS](http://boinx.com) and payed me for the hours I worked at *bobby*.
 
 ### Libraries
 #### optimist
@@ -58,3 +58,6 @@ a library for [asynchronous logging to different transports](https://github.com/
 
 #### UglifyJS
 for [fast and efficient minifycation](https://github.com/mishoo/UglifyJS)
+
+## License
+*bobby* is open source licensend under the MIT License. Don't do anything evil with it, won't you?
