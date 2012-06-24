@@ -1,2 +1,6 @@
 node_modules/
+bobby.log
 .DS_Store
+lib/.DS_Store
+bin/.DS_Store
+test/.DS_Store
