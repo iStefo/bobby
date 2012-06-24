@@ -26,7 +26,7 @@ The easiest way to combine all the files of your projects in the right order wor
 Compresses (mangles names and minifies) your scripts through UglifyJS
 
 ### -o, --output
-Specify a path here that shall be used as ouput. When not given, result will be piped to `stdout` and logs will be written to `buildjs.log`. If a output file is given, your terminal will show the most important steps, warnings and errors.
+Specify a path here that shall be used as ouput. When not given, result will be piped to `stdout` and logs will be written to `bobby.log`. If a output file is given, your terminal will show the most important steps, warnings and errors.
 
 ### -b, --base
 Specify a directory realtive to current that will be used as base for your *required* scripts (not the start-files and not the output file!)
@@ -38,6 +38,10 @@ Be more (really) verbose about requiring files
 When *bobby* can't find a specified file, it still will continue (if possible). With this option, execution will be aborted when a file can't be read.
 
 ## Acknowledgements 
+### Sponsor
+#### Boinx Software
+where I'm proud to work at with all the amazing people. They make [cool software for OS X and iOS](http://boinx.com) and payed me for the hours I worked at *Bobby*.
+
 ### Libraries
 #### optimist
 for [comandline option parsing](https://github.com/substack/node-optimist)
