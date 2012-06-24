@@ -21,6 +21,13 @@ The easiest way to combine all the files of your projects in the right order wor
 
 `bobby main.js > result.js`
 
+## Tips
+*bobby* is now available over npm. Simpy `npm install -g bobby` to get it running.
+
+Alternatively, check out this repository and install via `npm install -g .`.
+
+*bobby* becomes really powerfull when combined with tools like [LiveReload](http://livereload.com) or any other filesystem watcher. This way, *bobby* can build your project on the fly before you had even switched to your comandline (if you hadn't used vim, but of course you do...)
+
 ## Options, explained
 ### -c, --compress
 Compresses (mangles names and minifies) your scripts through UglifyJS
